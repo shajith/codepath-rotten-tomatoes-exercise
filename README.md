@@ -9,4 +9,6 @@ Completed requirements:
 - User can pull to refresh the movie list.
 - (optional) Add a search bar
 
-Demo: ![](rotten_tomatoes_demo.gif)
+Demo: 
+
+![](rotten_tomatoes_demo.gif)
