@@ -44,7 +44,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         moviesTable.tableHeaderView = searchBar
         moviesTable.contentOffset = CGPoint(x: 0, y: 44)
         moviesTable.separatorInset = UIEdgeInsetsZero
-                
+        
+        self.navigationController?.navigationBar.backgroundColor = UIColor.blackColor()
+        searchBar.backgroundColor = UIColor.blackColor()
+
         JHProgressHUD.sharedHUD.showInView(view, withHeader: "Loading", andFooter: "")
 
         fetchMovies() { () -> Void in
